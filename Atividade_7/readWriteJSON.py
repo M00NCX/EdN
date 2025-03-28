@@ -10,7 +10,7 @@ def ler_json(nome_arquivo):
         print(f'Nome: {dados["Nome"]}, Idade (meses): {dados["Idade"]}, Cidade: {dados["Cidade"]}')
 
 
-animal = {"Nome": "Nyx", "Idade": 2, "Cidade": "Juazeiro"}
+pessoa = {"Nome": "Nyx", "Idade": 2, "Cidade": "Juazeiro"}
 
-escrever_json("animal.json", animal)
-ler_json("animal.json")
+escrever_json("pessoa.json", pessoa)
+ler_json("pessoa.json")

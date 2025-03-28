@@ -7,7 +7,7 @@ def ler_csv(nome_arquivo):
             if i == 0:
                 print(f'Cabeçalho: {", ".join(row)}')
             else:
-                print(f'{row[0]} tem {int(row[1]) // 12} anos e {int(row[1]) % 12} meses.')
+                print(f'{row[0]} tem {row[1]} anos e mora em {row[2]}.')
 
 
-ler_csv("animal.csv")
+ler_csv("pessoas.csv")
